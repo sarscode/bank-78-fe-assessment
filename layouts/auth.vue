@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-grey-50 min-h-screen">
+  <section class="bg-gray-100 min-h-screen">
     <main class="max-w-lg mx-auto p-4">
       <header class="text-center my-6">
         <NuxtLink to="/">

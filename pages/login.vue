@@ -7,11 +7,10 @@
       Don't have an account?
       <NuxtLink to="/signup" class="text-brand-500">Sign up</NuxtLink>
     </p>
+    <LoginForm />
   </section>
 </template>
 
 <script lang="ts" setup>
 definePageMeta({ layout: 'auth' });
 </script>
-
-<style></style>

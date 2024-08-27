@@ -17,7 +17,6 @@ export default {
     extend: {
       colors: {
         brand: { 500: '#0067c7', 700: '#003464' },
-        grey: { 50: '#f1f0f4', 500: '#777777' },
       },
     },
   },
