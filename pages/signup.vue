@@ -5,11 +5,10 @@
       Already have an account?
       <NuxtLink to="/login" class="text-brand-500">Log in</NuxtLink>
     </p>
+    <SignupForm />
   </section>
 </template>
 
 <script lang="ts" setup>
 definePageMeta({ layout: 'auth' });
 </script>
-
-<style></style>

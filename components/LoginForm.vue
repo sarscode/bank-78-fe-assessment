@@ -35,11 +35,12 @@ const validationSchema = toTypedSchema(
   })
 );
 
-const { handleSubmit, meta } = useForm({
+const { handleSubmit, meta, resetForm } = useForm({
   validationSchema,
 });
 
 const onSubmit = handleSubmit((values) => {
   console.log(values);
+  resetForm();
 });
 </script>
